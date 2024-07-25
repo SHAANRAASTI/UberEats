@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { View, Text, StyleSheet, Pressable } from "react-native";
 import restaunrants from "../../../assets/data/restaurants.json";
-import { AntDesign } from "@expo/vector-icons";
+//import { AntDesign } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
 const dish = restaunrants[0].dishes[0];
@@ -29,7 +29,7 @@ const DishDetailsScreen = () => {
             <View style={styles.separator} />
 
             <View style={styles.row}>
-                <AntDesign
+                {/* <AntDesign
                     name="minuscircle"
                     size={60}
                     color={"black"}
@@ -40,7 +40,7 @@ const DishDetailsScreen = () => {
                     size={60}
                     color={"black"}
                     onPress={onPlus}
-                />
+                /> */}
             </View>
 
             <Pressable
